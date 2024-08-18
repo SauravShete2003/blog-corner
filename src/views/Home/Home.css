@@ -1,0 +1,20 @@
+
+.home-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .home-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .fort-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
