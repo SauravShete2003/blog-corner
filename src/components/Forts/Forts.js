@@ -5,7 +5,7 @@ function FortCard({ id, name, fortImage, fortAddress, fortTiming, fortDescriptio
   return (
     <Link to={`/forts/${id}`} className="fort-card">
       <img src={fortImage} alt={`${name} Image`} />
-      <h2>{name}</h2>
+      <h2 style={{color : "orangered"}}>{name}</h2>
       <p>{fortAddress}</p>
       <p>{fortTiming}</p>
       <p>{fortDescription.substring(0 , 100)}...</p>
